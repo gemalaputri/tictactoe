@@ -81,6 +81,8 @@ $(document).ready(function(){
     if(grid[row][column] === ' ' &&  isGameOver === false){
       $(this).html(player);
       grid[row][column] = player;
+    } else if (grid[row][column] !== ' '){
+      alert("already selected");
     }
 
     if(handleCheckGameOver()) {
