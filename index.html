@@ -6,27 +6,33 @@
     <link rel="stylesheet" href="./css/index.css">
   </head>
   <body>
-    <div class="summary">
-      <p>O player has won <strong id="varo">0</strong> time(s)</p>
-      <p>X player has won <strong id="varx">0</strong> time(s)</p>
-    </div>
-    <div class="row">
-      <div class="cols" data-row="0" data-column="0"></div>
-      <div class="cols" data-row="0" data-column="1"></div>
-      <div class="cols" data-row="0" data-column="2"></div>
-    </div>
-    <div class="row">
-      <div class="cols" data-row="1" data-column="0"></div>
-      <div class="cols" data-row="1" data-column="1"></div>
-      <div class="cols" data-row="1" data-column="2"></div>
-    </div>
-    <div class="row">
-      <div class="cols" data-row="2" data-column="0"></div>
-      <div class="cols" data-row="2" data-column="1"></div>
-      <div class="cols" data-row="2" data-column="2"></div>
+    <div class="center">
+      <h1>Game Tic Tac Toe!</h1>
+      <div class="summary">
+        <p>O player has won <strong id="varo">0</strong> time(s)</p>
+        <p>X player has won <strong id="varx">0</strong> time(s)</p>
+      </div>
+      <div class="flex-center">
+        <div class="row">
+          <div class="cols" data-row="0" data-column="0"></div>
+          <div class="cols" data-row="0" data-column="1"></div>
+          <div class="cols" data-row="0" data-column="2"></div>
+        </div>
+        <div class="row">
+          <div class="cols" data-row="1" data-column="0"></div>
+          <div class="cols" data-row="1" data-column="1"></div>
+          <div class="cols" data-row="1" data-column="2"></div>
+        </div>
+        <div class="row">
+          <div class="cols" data-row="2" data-column="0"></div>
+          <div class="cols" data-row="2" data-column="1"></div>
+          <div class="cols" data-row="2" data-column="2"></div>
+        </div>
+      </div>
+      <button class="btn-restart" id="restart">Restart</button>
     </div>
 
-    <button class="btn-restart" id="restart">Restart</button>
+
     <script
       src="https://code.jquery.com/jquery-3.2.0.min.js"
       integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I="
