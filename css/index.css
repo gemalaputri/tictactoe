@@ -1,0 +1,29 @@
+body {
+  background-color: #8f9a27;
+  font-family: 'Open Sans', Arial;
+}
+.row {
+  display: flex;
+}
+.cols {
+  display: inline-block;
+  font-size: 20px;
+  background-color: #cddc39;
+  padding: 20px;
+  border: 1px solid #eee;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+
+}
+
+.btn-restart {
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.summary {
+  font-size: 14px;
+}
